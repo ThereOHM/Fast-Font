@@ -6,7 +6,7 @@ This font provides faster reading through facilitating the reading process by gu
 
 The project is completely open-source, so please feel free to use and distribute it however you want.
 
-![Demo GIF](https://github.com/Born2Root/Fast-Font/blob/main/docs/Fast-Font.gif)
+![Demo GIF](docs/Fast-Font.gif)
 
 ## Demo:
 
@@ -14,7 +14,7 @@ The project is completely open-source, so please feel free to use and distribute
 
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
-For local testing, open [test.html](https://github.com/Born2Root/Fast-Font/blob/main/docs/test.html) in your browser.
+For local testing, open [docs/test.html](docs/test.html) in your browser.
 
 
 Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts) 👍
@@ -28,27 +28,27 @@ The first three are best suited for reading and offer support for the most langu
 The Monospaced version is the best fit if you want to use it in an coding environment.
 
 **1. Fast Font with Serifs:**
-   ![image](https://github.com/user-attachments/assets/4dae6fbf-34da-4492-be71-b04ac12a2a9f)
+   ![image](docs/images/sample-serif.png)
 
 **2. Fast Font Sans (without Serifs):**
-   ![image](https://github.com/user-attachments/assets/dea53742-c051-4165-bac9-dabf47b2e5ac)
+   ![image](docs/images/sample-sans.png)
 
 **3. Fast Font Sans (without Serifs) and Dots as spaces:**
 
 This Font is inspired by the Space Reading® technique Kam Knight discusses in his book [*"Speed Reading: Learn to Read a 200+ Page Book in 1 Hour"*](https://amzn.to/3U6RYYb).
 The basic idea is to not concentrate on the single words but looking at the white spaces between every 3-4 words. Paying attention on the spaces prevents the eyes from narrowing the focus, thus we are able to pick up more peripheral information. At the beginning it can be quite challenging focusing on the white spaces. 
 This Font helps you by inserting a litte dot, that is much easier to focus.
-![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
+![image](docs/images/sample-sans-dotted.png)
 
 **4. Fast Font Monospaced:**
 
 Monospaced version intended for use in coding environment. It also supports coding ligatures. Please refer to the [FiraCode Ligature Documentation](https://github.com/tonsky/FiraCode/blob/master/extras/ligatures.png) as a reference.
-![image](https://github.com/user-attachments/assets/6292b0b1-d7b4-4a37-8d8b-611dee0c9820)
+![image](docs/images/sample-mono.png)
 
 **5. Fast Font Dyslexic:**
 
 This Font is based on the [OpenDyslexic](https://opendyslexic.org/) typeface designed against some common symptoms of dyslexia.
-![image](https://github.com/user-attachments/assets/4ef1abea-1c55-490a-9ab9-3c2483311add)
+![image](docs/images/sample-opendyslexic.png)
 
 
 ---
@@ -58,20 +58,20 @@ This Font is based on the [OpenDyslexic](https://opendyslexic.org/) typeface des
 ### Use in Software
 In MS-Word, select the text and enable "Use Contextual Alternates" in the OpenType Features.
 
-![M$ Word](https://github.com/Born2Root/Fast-Font/blob/main/docs/word.jpg)
+![M$ Word](docs/word.jpg)
 
 You can also use it for programming, i.e. in VSCodium.
 Just select your font and set `"editor.fontLigatures": true,`.
 
 Or use it as the default font in your browser:
 
-![Example.com with new sans-serif font](https://github.com/Born2Root/Fast-Font/blob/main/docs/browser.jpg)
+![Example.com with new sans-serif font](docs/browser.jpg)
 
 ### Use in the Browser on random Websites
 
 Thank you @P4Steve who submitted a solution to use FastFont on Websites using your Browser.
 You can use universal browser addons like Tampermonkey that also works on mobile Browsers.
-Just install Tampermonkey to your browser and load the config file, that you can find the repo [AnyDeviceFastSerifBrowse.user.js](https://github.com/Born2Root/Fast-Font/blob/main/AnyDeviceFastSerifBrowse.user.js)
+Just install Tampermonkey to your browser and load the config file, that you can find the repo [AnyDeviceFastSerifBrowse.user.js](AnyDeviceFastSerifBrowse.user.js)
 Still you can expect some glitching, but in general it should work. On Firefox you can scale using text-only to reduce glitches.
 
 ### Use in Firefox Reader-Mode
@@ -94,7 +94,7 @@ Make sure to replace these with the actual font family names installed on your s
 If you have a Kobo Reader with KoReader-Extension you can also use it there.
 Please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/1) and the  [Corresponding Reddit Post](https://www.reddit.com/r/kobo/comments/186y8m7/speedreading_bionic_font_fast_font_working_on/?rdt=54785)
 
-![IMG_20231129_112326774 (1)](https://github.com/Born2Root/Fast-Font/assets/149900376/9d81c868-5fae-4a88-8820-9d7c64959391)
+![Kobo with Fast Font](docs/images/kobo-koreader.jpg)
 
 ### Use on Kindle
 
@@ -136,14 +136,14 @@ ATTENTION: Please be aware that only the new Kindles are that easy to handle. If
 
 ## ⚙️ How it works (the technical side):
 Are you interested in the technical aspects of the Fast-Font?
-You can find a detailed description about the background technology here: [Tech-Guide](https://github.com/ThereOHM/Fast-Font/blob/main/README_Tech.md)
+You can find a detailed description about the background technology here: [Tech-Guide](README_Tech.md)
 
 ## How to apply the Speed-Reading feature to other Fonts:
 
 Apply the shown feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
 If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
 
-To give you an introduction on how to do this, you can find an elaborate Tutorial for "FontLab 7" here: [Tutorial](https://github.com/Born2Root/Fast-Font/blob/main/README_Tutorial.md)
+To give you an introduction on how to do this, you can find an elaborate Tutorial for "FontLab 7" here: [Tutorial](README_Tutorial.md)
 
 To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
 With about 120 special characters nearly all European languages are covered.
