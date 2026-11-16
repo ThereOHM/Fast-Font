@@ -49,7 +49,7 @@ The one that is use for the bionic speed reading functionality is "calt" context
 If it is not already included in the font you can add it via the + symbol.
 
 Afterwards just add the whole program code that you can find in the repo.
-[opentype_feature.fea](https://github.com/Born2Root/Fast-Font/blob/main/opentype_feature.fea)
+[opentype_feature.fea](opentype_feature.fea)
 
 ![Feature Description](https://github.com/user-attachments/assets/aa739c59-d70d-487f-ab31-12502da84975)
 
@@ -128,7 +128,7 @@ For example it would be necessary to add some lines for the "ö ü ä ß"
 ```
 For other special characters just add them from the "EU languages" section or the cyrillic section "RU = russian, cyrillic" of the original program code.
 Please again, be aware that you need a font covering the special characters that you need, or design them yourself.
-[opentype_feature.fea](https://github.com/Born2Root/Fast-Font/blob/main/opentype_feature.fea)
+[opentype_feature.fea](opentype_feature.fea)
 
 If the test of the font works, and if you don't get any more errors it's time to export our font.
 

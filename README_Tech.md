@@ -42,7 +42,7 @@ Regarding the bold rules, I used a simple table to calculate how many characters
 The formula calculates, for example, how many characters are 40% of the word length, rounded to a full number afterwards.
 (Please be aware that I used the 40% rule starting with 5 character long words. For all shorter words I just defined the number of characters without any calculation)
 
-![tech_bold_rules](https://github.com/user-attachments/assets/12e20a98-a4f3-4ac9-9236-acb463d883ba)
+![tech_bold_rules](docs/images/tech-bold-rules.png)
 
 As a result you can see, that some word-lenghts result in the same number of characters formatted bold.
 Thats why certain word-lengths are combined to one ruleset in the OpenType program code.
@@ -52,7 +52,7 @@ To change the formattign rules just change the position of the @az' command with
 In this way you can format more or fewer characters per word-lenght bold.
 And of course it is possible to define much more rules. For instance one separate rule for each word lenght, without a combination like I did.
 
-![tech_example](https://github.com/user-attachments/assets/8905b32c-cf14-431d-81bc-1750a4d19001)
+![tech_example](docs/images/tech-example.png)
 
 
 # Variation:
@@ -66,7 +66,7 @@ Possible is for example:
 
 
 You can find a whole Tutorial on how to change the typeface and adapt the rules to another font on this page:
-[Tutorial](https://github.com/Born2Root/Fast-Font/blob/main/README_Tutorial.md)
+[Tutorial](README_Tutorial.md)
 
 
 
